@@ -39,11 +39,11 @@ public class Main {
             System.out.println("Enter number of dimensions");
             int dim=scan.nextInt();
             double[] arr=new double[dim];
-            int count=0;
+            
             for(int i=0;i<dim;i++){
                 
-                System.out.println("Enter "+i+1+" value");
-                arr[count]=scan.nextDouble();
+                System.out.println("Enter "+(i+1)+" value");
+                arr[i]=scan.nextDouble();
             }
             unit.setValues(arr);
             System.out.println("Enter K number!");
