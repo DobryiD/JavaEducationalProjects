@@ -40,12 +40,10 @@ public class Main {
             int dim=scan.nextInt();
             double[] arr=new double[dim];
             int count=0;
-            while(count<dim)
-            {
-                int temp=count+1;
-                System.out.println("Enter "+temp+" value");
+            for(int i=0;i<dim;i++){
+                
+                System.out.println("Enter "+i+1+" value");
                 arr[count]=scan.nextDouble();
-                count++;
             }
             unit.setValues(arr);
             System.out.println("Enter K number!");
