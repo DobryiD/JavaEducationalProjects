@@ -1,2 +1,2 @@
 # JavaEducationalProjects
-This repository consists from my University projects
+This repository consists of my University projects
